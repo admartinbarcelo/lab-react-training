@@ -1,9 +1,9 @@
 /* Primera Iteracíon */
-/* .id-card {
+ .id-card {
   display: flex;
   align-items: center;
   padding: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid grey;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   max-width: 400px;
@@ -16,7 +16,6 @@
 .id-card__picture img {
   width: 100%;
   max-width: 120px;
-  border-radius: 50%;
 }
 
 .id-card__details {
@@ -28,7 +27,114 @@
 .id-card__details p {
   margin: 0;
   margin-bottom: 8px;
-} */
+}
 
 /* Segunda Iteración */
+.greeting {
+  background-color: grey;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: bold;
+  width: 300px;
+}
+
+/* Tercera Iteracion */
+.random {
+  background-color: blue;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: bold;
+  width: 300px;
+  color: white;
+}
+
+/* Cuarta Iteracion
+estilos en el componente */
+
+/* Quinta Iteracion */
+.credit-card {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 16px;
+}
+
+.card-logo img {
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card-number {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card-expires {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card-bank, .card-owner {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card-text{
+  margin: 10px;
+}
+
+/* Última Iteracion */
+
+.DriverCard {
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+  padding: 16px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 10px;
+}
+
+.DriverCard-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.DriverCard-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.DriverCard-info h2 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.DriverCard-info p {
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  color: white;
+}
+
+.Rating {
+  margin-bottom: 10px;
+}
+
+
 
